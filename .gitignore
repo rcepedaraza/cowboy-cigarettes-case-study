@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 Notebook/.DS_Store
 Data/CowboyCigsData.csv
+.DS_Store
