@@ -9,3 +9,37 @@ You're working in the US federal government as a data scientist in the Health an
 
 Your job is to use just the 1949-1960 data to predict whether the manufacturer's cigarette sales actually increased, decreased, or stayed the same in the early 60s. You need to make a probable reconstruction of the sales record of the manufacturer - predicting the future, from the perspective of the past - to contribute your part of a full report on US public health in relation to major cigarette companies. The report will then be combined with other studies executed by your colleagues to provide important government advice. Ready to plumb the depths of US capitalist history?
 
+The results of your analysis will be used as part of a major report relating public health and local economics, and will be combined with other studies executed by your colleagues to provide important government advice. 
+___ 
+
+**1. Sourcing and loading** 
+- Load relevant libraries 
+- Load the data
+- Explore the data
+
+ 
+**2. Cleaning, transforming and visualizing**
+- Dropping unwanted columns
+- Nomenclature
+- Type conversions
+- Making a predictor variable `y` 
+- Getting summary statistics for `y`
+- Plotting `y`
+  
+  
+**3. Modelling** 
+- Decomposition
+    - Trend
+    - Seasonality
+    - Noise
+- Testing for stationarity with KPSS
+- Making the data stationary
+- The ARIMA Model
+    - Make a function to find the MSE of a single ARIMA model
+    - Make a function to evaluate the different ARIMA models with different p, d, and q values
+- Visualize the results
+- Application: Forecasting
+
+**4. Evaluating and concluding** 
+- What is our conclusion?
+- Next steps
